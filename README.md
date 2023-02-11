@@ -2,4 +2,5 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/worknonstop/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/worknonstop/python-project-lvl1/actions)
 
+How to install and game in brain-even:
 https://asciinema.org/a/eWoYWhxN9jrvdajKo1IiZzj9h
