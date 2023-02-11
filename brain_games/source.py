@@ -17,6 +17,7 @@ def is_even():
     welcome()
     name = user_name()
     print(f"Hello {name}")
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     wrong_no = "'no' is wrong answer ;/(. Correct answer was 'yes"
     wrong_yes = "'yes' is wrong answer ;/(. Correct answer was 'no'"
     try_again = f"Let's try again, {name}"
