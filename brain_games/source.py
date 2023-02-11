@@ -35,11 +35,9 @@ def is_even():
 
         if even_number and no_answer:
             print(wrong_no)
-            print(try_again)
             break
         elif uneven_number and yes_answer:
             print(wrong_yes)
-            print(try_again)
             break
         elif even_number and yes_answer:
             print("Correct!")
@@ -49,7 +47,8 @@ def is_even():
             i += 1
         else:
             print(f"Let's try again, {name}")
-            i = 0
+            break
+
     if i == 3:
         print(f"Congratulations, {name}!")
     else:
