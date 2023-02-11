@@ -4,7 +4,6 @@ from brain_games import source
 
 
 def main():
-    print('Answer "yes" if the number is even, otherwise answer "no"')
     source.is_even()
 
 
