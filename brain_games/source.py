@@ -34,9 +34,11 @@ def is_even():
 
         if even_number and no_answer:
             print(wrong_no)
+            print(try_again)
             break
         elif uneven_number and yes_answer:
             print(wrong_yes)
+            print(try_again)
             break
         elif (even_number and yes_answer) or (uneven_number and no_answer):
             print("Correct!")
