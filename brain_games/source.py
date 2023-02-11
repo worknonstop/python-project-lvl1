@@ -13,14 +13,17 @@ def user_name():
     return name
 
 
+def hello_name():
+    print(f"Hello {user_name()}")
+
+
 def is_even():
     welcome()
     name = user_name()
-    print(f"Hello {name}")
+    hello_name()
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    wrong_no = "'no' is wrong answer ;/(. Correct answer was 'yes"
+    wrong_no = "'no' is wrong answer ;/(. Correct answer was 'yes'"
     wrong_yes = "'yes' is wrong answer ;/(. Correct answer was 'no'"
-    try_again = f"Let's try again, {name}"
 
     i = 0
     while i < 3:
@@ -35,11 +38,11 @@ def is_even():
 
         if even_number and no_answer:
             print(wrong_no)
-            print(try_again)
+            print(f"Let's try again, {name}")
             break
         elif uneven_number and yes_answer:
             print(wrong_yes)
-            print(try_again)
+            print(f"Let's try again, {name}")
             break
         elif (even_number and yes_answer) or (uneven_number and no_answer):
             print("Correct!")
@@ -51,4 +54,4 @@ def is_even():
         if i == 3:
             print(f"Congratulations, {name}!")
         else:
-            print(try_again)
+            print(f"Let's try again, {name}")
