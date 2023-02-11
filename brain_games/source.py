@@ -52,6 +52,3 @@ def is_even():
             i = 0
 
     print(f"Congratulations, {name}!")
-
-
-is_even()
