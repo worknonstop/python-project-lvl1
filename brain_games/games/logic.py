@@ -8,5 +8,5 @@ def welcome():
 
 def user_name():
     name = prompt.string("")
-    print(f"Hello {user_name()}")
+    print(f"Hello {name}")
     return name
