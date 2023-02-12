@@ -1,4 +1,6 @@
-from logic import *
+import random
+
+from logic import hello_name, prompt, user_name, welcome
 
 
 def is_even():
