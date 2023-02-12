@@ -3,13 +3,25 @@ from brain_games import logic
 
 def calc_game():
     logic.welcome_user()
+    name = logic.user_name()
     print("What is the result of the experssion?")
-    random_list = ["+", "*", "-"]
-    random_operator = logic.random.choice(random_list)
-    if random_operator == "+":
-        operation = logic.addition()
-    elif random_operator == "*":
-        operation = logic.multiplication()
-    else:
-        operation = logic.subtraction()
-    return operation
+
+    i = 0
+    while i < 3:
+        operation = logic.random_question_calc()
+        print(f"Question: {operation}")
+        user_answer = logic.user_answer()
+        print(f"Answer: {user_answer}")
+
+        if user_answer == eval(operation):
+            print("Correct!")
+            i += 1
+        else:
+            print(
+                f"{user_answer} is wrong answer ;/(. Correct answer was {eval(operation)}"
+            )
+            print(f"Let's try again, {name}")
+            break
+
+    if i == 3:
+        print(f"Congratulations, {name}")
