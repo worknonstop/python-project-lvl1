@@ -12,11 +12,10 @@ def calc_game():
         print(f"Question: {operation}")
         user_answer = logic.user_answer()
         print(f"Answer: {user_answer}")
-
-        if user_answer == eval(operation):
+        if int(user_answer) == eval(operation):
             print("Correct!")
             i += 1
-        elif user_answer != eval(operation):
+        else:
             print(
                 f"{user_answer} is wrong answer ;/(. Correct answer was {eval(operation)}"
             )
