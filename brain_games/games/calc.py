@@ -2,8 +2,7 @@ from brain_games import logic
 
 
 def calc_game():
-    logic.welcome()
-    logic.user_name()
+    logic.welcome_user()
     print("What is the result of the experssion?")
     random_list = ["+", "*", "-"]
     random_operator = logic.random.choice(random_list)
