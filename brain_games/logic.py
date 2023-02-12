@@ -21,11 +21,15 @@ def welcome_user():
     user_name()
 
 
+def user_answer():
+    return prompt.string("")
+
+
 def random_number():
     return random.randint(1, 100)
 
 
-def random_question():
+def random_question_calc():
     num1 = random_number()
     num2 = random_number()
 
