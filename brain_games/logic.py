@@ -25,25 +25,15 @@ def random_number():
     return random.randint(1, 100)
 
 
-def addition():
+def random_question():
     num1 = random_number()
     num2 = random_number()
-    operation = f"{num1} + {num2}"
-    print(operation)
-    return num1 + num2
 
-
-def multiplication():
-    num1 = random.randint(2, 10)
-    num2 = random.randint(1, 20)
-    operation = f"{num1} * {num2}"
-    print(operation)
-    return num1 * num2
-
-
-def subtraction():
-    num1 = random_number()
-    num2 = random_number()
-    operation = f"{num1} - {num2}"
-    print(operation)
-    return num1 - num2
+    operators = ["+", "*", "-"]
+    random_operator = random.choice(operators)
+    if random_operator == "+":
+        return f"{num1} + {num2}"
+    elif random_operator == "*":
+        return f"{num1} * {num2}"
+    else:
+        return f"{num1} - {num2}"
