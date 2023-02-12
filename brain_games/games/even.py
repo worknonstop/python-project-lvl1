@@ -1,12 +1,12 @@
 import random
 
-from logic import hello_name, prompt, user_name, welcome
+import logic
 
 
 def is_even():
-    welcome()
-    name = user_name()
-    hello_name()
+    logic.welcome()
+    name = logic.user_name()
+    logic.hello_name()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     wrong_no = "'no' is wrong answer ;/(. Correct answer was 'yes'"
     wrong_yes = "'yes' is wrong answer ;/(. Correct answer was 'no'"
@@ -15,7 +15,7 @@ def is_even():
     while i < 3:
         number = random.randint(1, 100)
         print(f"Question: {number}")
-        user_answer = prompt.string("")
+        user_answer = logic.prompt.string("")
         no_answer = user_answer == "no"
         yes_answer = user_answer == "yes"
         even_number = number % 2 == 0
