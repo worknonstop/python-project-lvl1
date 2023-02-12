@@ -6,7 +6,6 @@ from . import logic
 def is_even():
     logic.welcome()
     name = logic.user_name()
-    logic.hello_name()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     wrong_no = "'no' is wrong answer ;/(. Correct answer was 'yes'"
     wrong_yes = "'yes' is wrong answer ;/(. Correct answer was 'no'"
