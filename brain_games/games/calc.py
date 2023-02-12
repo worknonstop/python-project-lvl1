@@ -2,7 +2,7 @@ from brain_games import logic
 
 
 def calc_game():
-    logic.welcome_user()
+    logic.welcome()
     name = logic.user_name()
     print("What is the result of the experssion?")
 
