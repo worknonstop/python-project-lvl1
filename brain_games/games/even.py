@@ -1,10 +1,10 @@
 import random
 
-from . import logic
+from brain_games import logic
 
 
 def is_even():
-    logic.welcome_user()
+    logic.welcome()
     name = logic.user_name()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     wrong_no = "'no' is wrong answer ;/(. Correct answer was 'yes'"
