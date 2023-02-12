@@ -1,3 +1,6 @@
+from logic import *
+
+
 def is_even():
     welcome()
     name = user_name()
