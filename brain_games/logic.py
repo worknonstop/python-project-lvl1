@@ -16,17 +16,12 @@ def user_name():
     return name
 
 
-def welcome_user():
-    welcome()
-    user_name()
-
-
 def user_answer():
     return prompt.string("")
 
 
 def random_number():
-    return random.randint(1, 100)
+    return random.randint(1, 10)
 
 
 def random_question_calc():
