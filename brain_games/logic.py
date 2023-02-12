@@ -16,6 +16,11 @@ def user_name():
     return name
 
 
+def welcome_user():
+    welcome()
+    user_name()
+
+
 def random_number():
     return random.randint(1, 100)
 
