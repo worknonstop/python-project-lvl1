@@ -1,6 +1,6 @@
 import random
 
-import logic
+from . import logic
 
 
 def is_even():
