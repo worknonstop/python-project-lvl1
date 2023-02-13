@@ -5,6 +5,6 @@
 How to install and game in brain-even:<br>
 https://asciinema.org/a/eWoYWhxN9jrvdajKo1IiZzj9h<br><br>
 How to install and game in brain-calc:<br>
-https://asciinema.org/a/qVvLQTZUHk6M4htEsPcISZYQM<br>
+https://asciinema.org/a/qVvLQTZUHk6M4htEsPcISZYQM<br><br>
 How to install and game in brain-gcd:<br>
-https://asciinema.org/a/hkHX5rnXVr0JxCsy7rh1801OZ
+https://asciinema.org/a/hkHX5rnXVr0JxCsy7rh1801OZ<br><br>
