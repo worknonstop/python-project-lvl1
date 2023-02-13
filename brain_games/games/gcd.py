@@ -11,12 +11,13 @@ def gcd_game():
         num1 = logic.random_number()
         num2 = logic.random_number()
         result = logic.gcd(num1, num2)
-        user_answer = logic.user_answer()
         print(f"Question: {num1} {num2}")
+        user_answer = logic.user_answer()
         print(f"Answer: {user_answer}")
 
         if int(user_answer) == result:
             print("Correct!")
+            i += 1
         else:
             print(
                 f"'{user_answer}' is wrong answer ;/(."
