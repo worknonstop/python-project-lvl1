@@ -55,10 +55,9 @@ def gcd(num1, num2):
         a = num2
         b = num1
 
-    switch = True
-    while switch:
+    while True:
         if a % b == 0:
-            switch = False
+            False
         else:
             new = a % b
             a = b
