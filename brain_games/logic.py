@@ -55,11 +55,12 @@ def gcd(num1, num2):
         a = num2
         b = num1
 
-    while True:
+    switch = True
+    while switch:
         if a % b == 0:
-            return b
-            False
+            switch = False
         else:
             new = a % b
             a = b
             b = new
+    return b
