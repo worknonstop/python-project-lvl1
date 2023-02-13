@@ -18,7 +18,7 @@ def is_even():
             i += 1
         else:
             print(
-                f"'{user_answer}' is wrong answer ;/(."
+                f"'{user_answer}' is wrong answer ;/(. "
                 + f"Correct answer was '{check}'"
             )
             print(f"Let's try again, {name}")
