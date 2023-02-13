@@ -47,19 +47,12 @@ def random_question_calc():
         return f"{num1} - {num2}"
 
 
-def gcd(num1, num2):
-    if num1 > num2:
-        a = num1
-        b = num2
-    else:
-        a = num2
-        b = num1
-
+# Search greatest common divisor
+def gcd(a, b):
     while True:
         if a % b == 0:
-            False
+            return b
         else:
             new = a % b
             a = b
             b = new
-    return b
