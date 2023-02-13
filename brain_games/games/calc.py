@@ -12,7 +12,7 @@ def calc_game():
         print(f"Question: {operation}")
         user_answer = logic.user_answer()
         print(f"Answer: {user_answer}")
-        if int(user_answer) == eval(operation):
+        if user_answer == str(eval(operation)):
             print("Correct!")
             i += 1
         else:
