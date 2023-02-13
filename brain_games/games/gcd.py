@@ -21,7 +21,6 @@ def gcd_game():
 
         if str(user_answer) == str(result):
             print("Correct!")
-            i += 1
         else:
             print(
                 f"'{user_answer}' is wrong answer ;/(."
@@ -29,6 +28,7 @@ def gcd_game():
             )
             print(f"Let's try again, {name}!")
             break
+        i += 1
 
     if i == 3:
         print(f"Congratulations, {name}")
