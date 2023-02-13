@@ -23,7 +23,7 @@ def gcd_game():
                 f"'{user_answer}' is wrong answer ;/(."
                 + f" Correct answer was '{result}'"
             )
-            print(f"Let's try again, {name}")
+            print(f"Let's try again, {name}!")
             break
 
     if i == 3:
