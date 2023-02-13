@@ -12,14 +12,16 @@ def gcd_game():
         num2 = logic.random_number()
         result = logic.gcd(num1, num2)
         user_answer = logic.user_answer()
-        print(f"Question: {num1 num2}")
+        print(f"Question: {num1} {num2}")
         print(f"Answer: {user_answer}")
 
         if int(user_answer) == result:
             print("Correct!")
         else:
-            print(f"'{user_answer}' is wrong answer ;/(." +
-                  f"Correct answer was '{result}'")
+            print(
+                f"'{user_answer}' is wrong answer ;/(."
+                + f" Correct answer was '{result}'"
+            )
             print(f"Let's try again, {name}")
             break
 
