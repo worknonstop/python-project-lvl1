@@ -15,7 +15,7 @@ def gcd_game():
         user_answer = logic.user_answer()
         print(f"Answer: {user_answer}")
 
-        if int(user_answer) == result:
+        if user_answer == str(result):
             print("Correct!")
             i += 1
         else:
