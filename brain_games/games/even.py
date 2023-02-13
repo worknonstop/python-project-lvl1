@@ -1,5 +1,3 @@
-import random
-
 from brain_games import logic
 
 
@@ -12,9 +10,9 @@ def is_even():
 
     i = 0
     while i < 3:
-        number = random.randint(1, 100)
+        number = logic.random_number()
         print(f"Question: {number}")
-        user_answer = logic.prompt.string("")
+        user_answer = logic.user_answer()
         no_answer = user_answer == "no"
         yes_answer = user_answer == "yes"
         even_number = number % 2 == 0
