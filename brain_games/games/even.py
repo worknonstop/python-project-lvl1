@@ -17,8 +17,10 @@ def is_even():
             print("Correct!")
             i += 1
         else:
-            print(f"{user_answer} is wrong answer ;/(." +
-                  f"Correct answer was {check}")
+            print(
+                f"'{user_answer}' is wrong answer ;/(."
+                + f"Correct answer was '{check}'"
+            )
             print(f"Let's try again, {name}")
             break
     if i == 3:
