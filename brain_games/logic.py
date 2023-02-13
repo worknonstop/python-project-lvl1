@@ -44,3 +44,26 @@ def random_question_calc():
         return f"{num1} * {num2}"
     else:
         return f"{num1} - {num2}"
+
+
+def gcd():
+    num1 = random_number()
+    num2 = random_number()
+    print(num1, num2)
+
+    if num1 > num2:
+        a = num1
+        b = num2
+    else:
+        a = num2
+        b = num1
+
+    switch = True
+    while switch:
+        if a % b == 0:
+            return b
+            switch = False
+        else:
+            new = a % b
+            a = b
+            b = new
