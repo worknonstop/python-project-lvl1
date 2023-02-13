@@ -24,6 +24,7 @@ def random_number():
     return random.randint(1, 10)
 
 
+# Check, is even number or not
 def check_number(number):
     if number % 2 == 0:
         return "yes"
