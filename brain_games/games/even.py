@@ -18,7 +18,7 @@ def is_even():
         else:
             print(
                 f"{user_answer} is wrong answer ;/(."
-                + f"Correct answer was {logic.check_number}"
+                + f"Correct answer was {logic.check_number()}"
             )
             print(f"Let's try again, {name}")
             break
