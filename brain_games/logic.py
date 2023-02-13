@@ -16,6 +16,7 @@ def user_name():
     return name
 
 
+# User answer
 def user_answer():
     return prompt.string("")
 
@@ -46,11 +47,7 @@ def random_question_calc():
         return f"{num1} - {num2}"
 
 
-def gcd():
-    num1 = random_number()
-    num2 = random_number()
-    print(num1, num2)
-
+def gcd(num1, num2):
     if num1 > num2:
         a = num1
         b = num2
@@ -58,11 +55,10 @@ def gcd():
         a = num2
         b = num1
 
-    switch = True
-    while switch:
+    while True:
         if a % b == 0:
             return b
-            switch = False
+            False
         else:
             new = a % b
             a = b
