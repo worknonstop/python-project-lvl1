@@ -56,3 +56,17 @@ def gcd(a, b):
             new = a % b
             a = b
             b = new
+
+
+def progression(step):
+    begin = random.randint(1, 50)
+    length = random.randint(5, 10)
+
+    numbers = []
+    i = 0
+    while i < length:
+        numbers.append(begin)
+        begin += step
+        i += 1
+
+    return numbers
