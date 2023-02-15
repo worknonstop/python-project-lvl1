@@ -23,6 +23,7 @@ def progression_game():
         if user_answer == answer:
             print("Correct!")
             i += 1
+            iter += 1
         else:
             print(
                 f"'{user_answer}' is wrong answer ;/(. "
