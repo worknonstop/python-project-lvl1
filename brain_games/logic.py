@@ -78,3 +78,17 @@ def mod_list(lst):
     lst[index] = ".."
     number_and_list = (lst, number)
     return number_and_list
+
+
+def is_prime(n):
+    if n < 2:
+        return "no"
+
+    i = 2
+    while i <= n / 2:
+        if n % i == 0:
+            return "no"
+        else:
+            i += 1
+
+    return "yes"
