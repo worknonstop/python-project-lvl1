@@ -58,7 +58,7 @@ def gcd(a, b):
             b = new
 
 
-def progression(step):
+def lst_progression(step):
     begin = random.randint(1, 50)
     length = random.randint(5, 10)
 
