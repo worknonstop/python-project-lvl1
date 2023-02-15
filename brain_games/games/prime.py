@@ -1,3 +1,5 @@
+import random
+
 from brain_games import logic
 
 
