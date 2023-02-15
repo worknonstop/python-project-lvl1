@@ -70,3 +70,11 @@ def lst_progression(step):
         i += 1
 
     return numbers
+
+
+def mod_list(lst):
+    index = random.randint(0, len(lst) - 1)
+    number = lst[index]
+    lst[index] = ".."
+    number_and_list = (lst, number)
+    return number_and_list
