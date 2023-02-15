@@ -10,3 +10,6 @@ https://asciinema.org/a/qVvLQTZUHk6M4htEsPcISZYQM<br><br>
 https://asciinema.org/a/hkHX5rnXVr0JxCsy7rh1801OZ<br><br>
 ### How to install and game in brain-progression:<br>
 https://asciinema.org/a/AcoTnrwk2ph6A6VR8MumWRkqf<br><br>
+### How to install and game in brain-prime:<br>
+https://asciinema.org/a/R5cZqWyoUlN1RJlW9UNJRIVMo<br><br>
+
