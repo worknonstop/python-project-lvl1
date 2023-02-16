@@ -12,7 +12,7 @@ def welcome():
 # Prompt username
 def user_name():
     name = prompt.string("")
-    print(f"Hello {name}")
+    print(f"Hello, {name}!")
     return name
 
 
