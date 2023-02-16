@@ -4,7 +4,7 @@ from brain_games import logic
 def calc_game():
     logic.welcome()
     name = logic.user_name()
-    print("What is the result of the experssion?")
+    print("What is the result of the expression?")
 
     i = 0
     while i < 3:
