@@ -17,7 +17,7 @@ def calc_game():
             i += 1
         else:
             print(
-                f"'{user_answer}' is wrong answer ;/(."
+                f"'{user_answer}' is wrong answer ;/(. "
                 + f"Correct answer was '{str(eval(question))}'."
             )
             print(f"Let's try again, {name}!")
