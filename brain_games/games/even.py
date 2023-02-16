@@ -11,7 +11,7 @@ def is_even():
         number = logic.random_number()
         check = logic.check_number(number)
         print(f"Question: {number}")
-        print(f"Your answer: ", end="")
+        print("Your answer: ", end="")
         user_answer = logic.user_answer()
 
         if check == user_answer:
@@ -20,9 +20,9 @@ def is_even():
         else:
             print(
                 f"'{user_answer}' is wrong answer ;/(. "
-                + f"Correct answer was '{check}'"
+                + f"Correct answer was '{check}'."
             )
             print(f"Let's try again, {name}")
             break
     if i == 3:
-        print(f"Congratulations, {name}")
+        print(f"Congratulations, {name}!")
