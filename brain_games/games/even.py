@@ -9,18 +9,18 @@ def is_even():
     i = 0
     while i < 3:
         number = logic.random_number()
-        check = logic.check_number(number)
+        answer = logic.check_number(number)
         print(f"Question: {number}")
         print("Your answer: ", end="")
         user_answer = logic.user_answer()
 
-        if check == user_answer:
+        if answer == user_answer:
             print("Correct!")
             i += 1
         else:
             print(
                 f"'{user_answer}' is wrong answer ;/(. "
-                + f"Correct answer was '{check}'."
+                + f"Correct answer was '{answer}'."
             )
             print(f"Let's try again, {name}!")
             break
