@@ -87,6 +87,15 @@ def mod_list(lst):
     return number_and_list
 
 
+def list_to_string(lst):
+    string = ""
+
+    for el in lst:
+        string += str(el) + " "
+
+    return string
+
+
 def is_prime(n):
     if n < 2:
         return "no"
