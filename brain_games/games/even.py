@@ -22,7 +22,7 @@ def is_even():
                 f"'{user_answer}' is wrong answer ;/(. "
                 + f"Correct answer was '{check}'."
             )
-            print(f"Let's try again, {name}")
+            print(f"Let's try again, {name}!")
             break
     if i == 3:
         print(f"Congratulations, {name}!")
