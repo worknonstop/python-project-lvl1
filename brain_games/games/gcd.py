@@ -16,19 +16,19 @@ def gcd_game():
             result = logic.gcd(num2, num1)
 
         print(f"Question: {num1} {num2}")
+        print("Your answer: ", end="")
         user_answer = logic.user_answer()
-        print(f"Answer: {user_answer}")
 
         if str(user_answer) == str(result):
             print("Correct!")
         else:
             print(
-                f"'{user_answer}' is wrong answer ;/(."
-                + f" Correct answer was '{result}'"
+                f"'{user_answer}' is wrong answer ;/(. "
+                + f" Correct answer was '{result}'."
             )
             print(f"Let's try again, {name}!")
             break
         i += 1
 
     if i == 3:
-        print(f"Congratulations, {name}")
+        print(f"Congratulations, {name}!")
