@@ -17,7 +17,7 @@ def progression_game():
         question = str(question_number[0])
         answer = str(question_number[1])
 
-        print(f"Question: {question}")
+        print("Question:", question)
         print("Your answer: ", end="")
         user_answer = logic.user_answer()
 
