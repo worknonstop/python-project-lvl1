@@ -33,5 +33,5 @@ def progression_game():
             print(f"Let's try again, {name}!")
             break
 
-        if i == 3:
-            print(f"Congratulations, {name}!")
+    if i == 3:
+        print(f"Congratulations, {name}!")
