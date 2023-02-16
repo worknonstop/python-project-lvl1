@@ -12,13 +12,14 @@ def calc_game():
         print(f"Question: {question}")
         print("Your answer: ", end="")
         user_answer = logic.user_answer()
-        if user_answer == str(eval(question)):
+        answer = str(eval(question))
+        if user_answer == answer:
             print("Correct!")
             i += 1
         else:
             print(
                 f"'{user_answer}' is wrong answer ;/(. "
-                + f"Correct answer was '{str(eval(question))}'."
+                + f"Correct answer was '{answer}'."
             )
             print(f"Let's try again, {name}!")
             break
