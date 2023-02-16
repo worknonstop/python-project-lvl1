@@ -14,7 +14,7 @@ def progression_game():
         step = steps[iter]
         new_list = logic.lst_progression(step)
         question_number = logic.mod_list(new_list)
-        question = question_number[0]
+        question = str(question_number[0])
         answer = str(question_number[1])
 
         print(f"Question: {question}")
