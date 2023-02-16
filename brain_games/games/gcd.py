@@ -4,7 +4,7 @@ from brain_games import logic
 def gcd_game():
     logic.welcome()
     name = logic.user_name()
-    print("Find greatest common divisor of given numbers.")
+    print("Find the greatest common divisor of given numbers.")
 
     i = 0
     while i < 3:
