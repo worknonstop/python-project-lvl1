@@ -10,8 +10,8 @@ def calc_game():
     while i < 3:
         question = eval(logic.random_question_calc())
         print(f"Question: {question}")
+        print("Your answer: ", end="")
         user_answer = logic.user_answer()
-        print(f"Answer: {user_answer}")
         if user_answer == str(question):
             print("Correct!")
             i += 1
