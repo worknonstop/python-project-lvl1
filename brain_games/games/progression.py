@@ -18,8 +18,8 @@ def progression_game():
         answer = str(question_number[1])
 
         print(f"Question: {question}")
+        print("Your answer: ", end="")
         user_answer = logic.user_answer()
-        print(f"Question: {user_answer}")
 
         if user_answer == answer:
             print("Correct!")
@@ -30,8 +30,8 @@ def progression_game():
                 f"'{user_answer}' is wrong answer ;/(. "
                 + f"Correct answer was '{answer}'."
             )
-            print(f"Let's try again, {name}")
+            print(f"Let's try again, {name}!")
             break
 
         if i == 3:
-            print(f"Congratulations, {name}")
+            print(f"Congratulations, {name}!")
