@@ -24,4 +24,4 @@ def calc_game():
             break
 
     if i == 3:
-        print(f"Congratulations, {name}")
+        print(f"Congratulations, {name}!")
