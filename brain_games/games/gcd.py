@@ -11,10 +11,6 @@ def gcd_game():
         num1 = logic.random_number()
         num2 = logic.random_number()
         result = logic.is_more(num1, num2)
-        # if num1 > num2:
-        #     result = logic.gcd(num1, num2)
-        # else:
-        #     result = logic.gcd(num2, num1)
 
         print(f"Question: {num1} {num2}")
         print("Your answer: ", end="")
