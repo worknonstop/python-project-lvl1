@@ -12,7 +12,7 @@ def welcome():
 # Prompt username
 def user_name():
     name = prompt.string("")
-    print(f"Hello, {name}!")
+    print(f"Hello: {name}!")
     return name
 
 
@@ -56,6 +56,13 @@ def gcd(a, b):
             new = a % b
             a = b
             b = new
+
+
+def is_more(num1, num2):
+    if num1 > num2:
+        return gcd(num1, num2)
+    else:
+        return gcd(num2, num1)
 
 
 def lst_progression(step):
