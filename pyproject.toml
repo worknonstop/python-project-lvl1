@@ -4,6 +4,11 @@ version = "0.1.0"
 description = "It's my firs project on Hexlet."
 authors = ["Yuriy Y <monkcrazy91@gmail.com>"]
 readme = "README.md"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: POSIX",
+  "Private :: Do Not Upload",
+]
 packages = [
   {include = "brain_games"}
 ]
