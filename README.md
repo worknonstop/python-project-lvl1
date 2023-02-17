@@ -7,6 +7,11 @@
 $ git clone git@github.com:worknonstop/python-project-lvl1.git
 $ make package-install 
 ```
+or<br>
+```bash
+$ git clone git@github.com:worknonstop/python-project-lvl1.git
+$ pip install --user dist/*whl
+```
 ### brain-games:<br>
 https://asciinema.org/a/eLrkPUeCy9WQf4x3gsNkvexg8<br><br>
 ### brain-even:<br>
