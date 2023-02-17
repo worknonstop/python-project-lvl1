@@ -12,6 +12,9 @@ or<br>
 $ git clone git@github.com:worknonstop/python-project-lvl1.git
 $ pip install --user dist/*whl
 ```
+Installation:<br>
+https://asciinema.org/a/wVseuMjQywmkzoXmSriq3Xwkt
+
 ### brain-games:<br>
 https://asciinema.org/a/eLrkPUeCy9WQf4x3gsNkvexg8<br><br>
 ### brain-even:<br>
