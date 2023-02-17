@@ -1,7 +1,9 @@
 # First project on Hexlet 'Brain games'
 <a href="https://codeclimate.com/github/worknonstop/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/c356ed621661028d1989/maintainability" /></a>
 [![Actions Status](https://github.com/worknonstop/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/worknonstop/python-project-lvl1/actions)
-### This project was built using [Poetry](https://python-poetry.org/)
+### This project was built using this tools:<br>
+[Poetry](https://python-poetry.org/)<br>
+[Python](https://www.python.org/)<br>
 ### Installation:
 ```bash
 $ git clone git@github.com:worknonstop/python-project-lvl1.git
